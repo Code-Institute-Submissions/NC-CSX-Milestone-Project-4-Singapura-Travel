@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "packages.category", "fields": {"name": "Nature", "friendly_name": "Nature"}}, {"pk": 2, "model": "packages.category", "fields": {"name": "Adrenaline", "friendly_name": "adrenaline"}}, {"pk": 3, "model": "packages.category", "fields": {"name": "Sightseeing", "friendly_name": "sightseeing"}}]
