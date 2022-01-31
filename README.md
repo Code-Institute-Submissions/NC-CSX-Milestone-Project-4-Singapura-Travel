@@ -32,7 +32,7 @@ This is a new company website based in Singapore that caters for first time trav
 4. [Github](https://github.com/) Used to store code and automatically deploy the finished application to Heroku.
 
 
-* The Link to the application is -(https://niall-project-roller-coaster.herokuapp.com/)
+* The Link to the application is -(https://niall-project-singapura-travel.herokuapp.com/)
 
 ### Credits and Acknowledgments 
 1. The project was heavily based on the Boutique Ado mini project in the Code Institute Full Stack Framweworks Module. The overall structure was based on this project. Link to the repository is -(https://github.com/Code-Institute-Solutions/boutique_ado_v1)
