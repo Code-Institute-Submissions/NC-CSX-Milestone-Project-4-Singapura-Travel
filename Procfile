@@ -1,1 +1,1 @@
-web: gunicorn django_Singapura.wsgi:application
+web: gunicorn Singapura.wsgi:application
