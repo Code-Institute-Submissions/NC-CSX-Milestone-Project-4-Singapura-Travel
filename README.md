@@ -23,7 +23,7 @@ This is a new company website based in Singapore that caters for first time trav
 
 #### Frameworks, Programs and Libraries used
 
-1. [Boostrap](https://getbootstrap.com/) Used to aid responsiveness of the site.
+1. [Bootstrap](https://getbootstrap.com/) Used to aid responsiveness of the site.
 
 2. [Heroku](https://www.heroku.com/) Used to deploy the finished application.
 
