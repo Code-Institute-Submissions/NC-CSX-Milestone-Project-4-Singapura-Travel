@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+from pathlib import Path
 import dj_database_url
 
-from pathlib import Path
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,7 @@ SECRET_KEY = 'django-insecure--_m1ej*tw^yte-gcf&ww(171!*p89x6=o0av4(1fc#=0z3p%jo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['niall-project-singapura-travel.herokuapp.com']
+ALLOWED_HOSTS = ['niall-project-singapura-travel.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -82,7 +83,7 @@ TEMPLATES = [
 
 AUTHENTICATION_BACKENDS = [
         # Needed to login by username in Django admin, regardless of `allauth`
-    'django.contrib.auth.backends.ModelBackend',
+        'django.contrib.auth.backends.ModelBackend',
 
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
